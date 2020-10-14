@@ -1,7 +1,9 @@
 #Python program to draw smile face emoji
 #using turtle
 
-import turtle,time
+import turtle
+import time
+
 #turtle object
 pen=turtle.Turtle()
 
@@ -34,8 +36,8 @@ def eye(col,rad):
   eye('black',5)
   
   #draw nose(using eye function)
-  pen.goto(0,75)
-  eye('black',8)
+  #pen.goto(0,75)
+  #eye('black',8)
   
   #draw mouth
   pen.goto(-40,85)
